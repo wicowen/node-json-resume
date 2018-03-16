@@ -1,0 +1,21 @@
+{
+  "name": "json-resume-wicowen",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wicowen/node-json-resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wicowen/node-json-resume/issues"
+  },
+  "homepage": "https://github.com/wicowen/node-json-resume#readme",
+  "dependencies": {
+    "resume-cli": "^0.4.19"
+  }
+}
