@@ -6,7 +6,7 @@
     "email": "to@wico.cc",
     "phone": "(+886) 000-000-000",
     "website": "http://wicowen.github.io",
-    "summary": "I'm a web developer who familiar with LAMP development, 4 years e-commerce web site, 1 year cloud system, 1 year server system admin experience.",
+    "summary": "I'm a web developer who familiar with LAMP development, 5 years e-commerce web site, 2 year frontend with vue, 1 year cloud system, 1 year server system admin experience.",
     "location": {
       "address": "Wenshan Dist",
       "postalCode": "",
@@ -24,12 +24,23 @@
   },
   "work": [
     {
+      "company": "Motionelements Corp.",
+      "position": "Web Developer",
+      "website": "https://search.motionelements.com/",
+      "startDate": "2018-05-01",
+      "endDate": "now",
+      "summary": "Development e-commerce site, Vue, Travis CI, Docker, Nginx, PHP",
+      "highlights": [
+        "refactor search page from `php zend & jQuery` to `vue.js + RESTful api` architecture"
+      ]
+    },
+    {
       "company": "MID Corp.",
       "position": "Web Developer",
       "website": "",
       "startDate": "2016-11-01",
       "endDate": "2017-06-01",
-      "summary": "Development sports lottery system use Laravel, Vue, Github",
+      "summary": "Development sports lottery system with Laravel, Vue, Github",
       "highlights": [
         "developed News message publisher API",
         "developed Credit logger API"
@@ -110,26 +121,12 @@
   "publications": [],
   "skills": [
     {
-      "name": "Back End",
-      "level": "",
-      "keywords": [
-        "PHP",
-        "Apache",
-        "Nginx",
-        "CentOS",
-        "Ubuntu",
-        "Shell",
-        "MySQL"
-      ]
-    },
-    {
       "name": "Front End",
       "level": "",
       "keywords": [
-        "Javascript",
         "Vue",
-        "Webpack",
-        "CSS",
+        "Javascript",
+        "Bootstrap 4",
         "jQuery"
       ]
     },
@@ -137,9 +134,21 @@
       "name": "Utility",
       "level": "",
       "keywords": [
-        "Jenkins",
+        "Travis / Jenkins",
         "Git",
         "Vim"
+      ]
+    },
+    {
+      "name": "Back End",
+      "level": "",
+      "keywords": [
+        "PHP",
+        "Apache",
+        "Nginx",
+        "MySQL",
+        "CentOS",
+        "Shell"
       ]
     }
   ],
