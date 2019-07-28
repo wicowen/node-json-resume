@@ -3,10 +3,9 @@
     "name": "Yi-Chiao Wen (温以樵)",
     "label": "Web Developer",
     "picture": "",
-    "email": "to@wico.cc",
-    "phone": "(+886) 000-000-000",
+    "email": "is@wico.cc",
     "website": "http://wicowen.github.io",
-    "summary": "I'm a web developer who familiar with LAMP development, 5 years e-commerce web site, 2 year frontend with vue, 1 year cloud system, 1 year server system admin experience.",
+    "summary": "I'm a web developer who familiar with LAMP development, 5 years e-commerce web site, 2 year frontend with vue experience.",
     "location": {
       "address": "Wenshan Dist",
       "postalCode": "",
@@ -28,10 +27,10 @@
       "position": "Web Developer",
       "website": "https://search.motionelements.com/",
       "startDate": "2018-05-01",
-      "endDate": "now",
       "summary": "Development e-commerce site, Vue, Travis CI, Docker, Nginx, PHP",
       "highlights": [
-        "refactor search page from `php zend & jQuery` to `vue.js + RESTful api` architecture"
+        "maintain frontend site",
+        "refactor site from `php Zend template` to `vue.js + RESTful api`"
       ]
     },
     {
