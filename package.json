@@ -12,11 +12,7 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wicowen/node-json-resume/issues"
-  },
-  "homepage": "https://github.com/wicowen/node-json-resume#readme",
   "dependencies": {
-    "resume-cli": "^0.4.19"
+    "resume-cli": "~2.2.0"
   }
 }
