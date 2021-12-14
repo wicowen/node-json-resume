@@ -1,16 +1,16 @@
 {
   "basics": {
-    "name": "Yi-Chiao Wen (温以樵)",
-    "label": "Web Developer",
+    "name": "Wico Wen",
+    "label": "Frontend Web Developer",
     "picture": "",
     "email": "is@wico.cc",
     "website": "http://wicowen.github.io",
-    "summary": "Hi~ 👋 here is a Web developer who enjoy develop web site on LAMP environment, familiar working with Vue.js, Javascript, PHP, Git, CircleCI, nice to meet you.",
+    "summary": "9 years experience on web development, familiar with Vue, Javascript, CI/CD, Git, Scurm, PHP, Linux.",
     "location": {
       "address": "",
       "postalCode": "",
       "city": "Taipei",
-      "countryCode": "",
+      "countryCode": "TW",
       "region": "Taiwan"
     },
     "profiles": [
@@ -23,27 +23,30 @@
   },
   "work": [
     {
-      "company": "Motionelements Corp.",
+      "company": "Motionelements Corp",
       "position": "Web Developer",
-      "website": "https://search.motionelements.com/",
+      "website": "https://www.motionelements.com/search/video",
       "startDate": "2018-05-01",
-      "endDate": "now",
-      "summary": "refactor web site from jQuery to vue, import GitHub / CircleCI enhance development workflow",
+      "endDate": "2021-12-16",
+      "summary": "refactor site from `Legacy PHP` to `Vue + API`, import `CI/CD` to automatic development workflow",
       "highlights": [
-        "refactor site from `PHP Zend + jQuery` to `vue.js + RESTful api`",
-        "search page"
+        "maintain company's search/artist/reseller",
+        "refactor site from `PHP Zend + jQuery` to `vue.js + RESTful API`",
+        "build web logger system base on docker on aws",
+        "scrum team experience"
       ]
     },
     {
-      "company": "MID(麥英達) Corp.",
+      "company": "MID Corp",
       "position": "Web Developer",
       "website": "",
       "startDate": "2016-11-01",
       "endDate": "2017-06-01",
-      "summary": "Development sports lottery system with Laravel, Vue, Github",
+      "summary": "Development sports games system with Vue, Laravel, Github",
       "highlights": [
-        "development backend API with laravel ",
-        "development Credit logger API"
+        "development backend API with laravel",
+        "development logger API",
+        "(Company GUI Number: 12995349)"
       ]
     },
     {
@@ -78,7 +81,7 @@
       "endDate": "2011-05-01",
       "summary": "maintain Armed Force Reserve System",
       "highlights": [
-        "maintain system use for armed reserve(後備教召系統)"
+        "maintain taiwan's armed reserve system with php, javascript, linux"
       ]
     },
     {
@@ -87,10 +90,10 @@
       "website": "http://www.eris.com.tw/en/",
       "startDate": "2007-06-01",
       "endDate": "2008-10-01",
-      "summary": "development company's web Site use PHP",
+      "summary": "development company's web site and maintain web server",
       "highlights": [
-        "maintain company site",
-        "maintain web server with VMware"
+        "maintain company web site with php",
+        "maintain web server using VMware"
       ]
     }
   ],
@@ -104,11 +107,11 @@
       "endDate": "2007-07-01",
       "gpa": "",
       "courses": [
-        "CCNA"
+        "CCNA (Cisco Certified Network Associate)"
       ]
     },
     {
-      "institution": "Tungnan University, ",
+      "institution": "Tungnan University",
       "area": "Dept. of Electronic Engineering ( Program of Computer Science)",
       "studyType": "Associate Degree",
       "startDate": "1998-06-01",
@@ -121,12 +124,13 @@
   "publications": [],
   "skills": [
     {
-      "name": "Front End",
+      "name": "Frontend",
       "level": "",
       "keywords": [
         "Vue",
+        "Vuex",
         "Javascript",
-        "Bootstrap 4",
+        "Bootstrap",
         "jQuery"
       ]
     },
@@ -134,20 +138,19 @@
       "name": "Utility",
       "level": "",
       "keywords": [
-        "GitHub / Git",
-        "CircleCI / Travis CI",
+        "CircleCI",
+        "Git / GitHub",
         "VSCode / Vim"
       ]
     },
     {
-      "name": "Back End",
+      "name": "Backend",
       "level": "",
       "keywords": [
         "PHP",
         "Apache / Nginx",
         "CentOS",
-        "Shell",
-        "MySQL"
+        "Shell"
       ]
     }
   ],
