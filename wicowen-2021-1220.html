@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Wico Wen</title>
+    <meta name="description" content="9 years experience on web development, familiar with Vue, Javascript, CI/CD, Git, Scurm, PHP, Linux.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap">
+    <style>:root {
+  /* Colors */
+  --primaryColor: #212529;
+  --secondaryColor: #95a5a6;
+  --accentColor: #f1c40f;
+  --linkColor: #2ecc71;
+  --mutedColor: #f4f6f6;
+
+  /* Typography */
+  --ratio: 1.25;
+  --scale0: 1rem;
+  --scale1: calc(var(--scale0) * var(--ratio));
+  --scale2: calc(var(--scale1) * var(--ratio));
+  --scale3: calc(var(--scale2) * var(--ratio));
+  --scale4: calc(var(--scale3) * var(--ratio));
+  --scale5: calc(var(--scale4) * var(--ratio));
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  color: var(--primaryColor);
+  display: grid;
+  font: 1em/1.5 Lato, sans-serif;
+  gap: 2em;
+  grid-template-columns:
+    [full-start]
+    1fr
+    [main-start side-start]
+    minmax(min-content, 12em)
+    [side-end content-start]
+    minmax(min-content, 36em)
+    [main-end content-end]
+    1fr
+    [full-end];
+  grid-template-rows: auto [content] 0;
+  margin-bottom: 4em;
+}
+
+body::before {
+  content: '';
+  grid-column: full;
+  grid-row: content;
+}
+
+ol,
+ul {
+  padding-left: 1em;
+}
+
+li + li {
+  margin-top: 0.2em;
+}
+
+li::marker {
+  color: var(--mutedColor);
+}
+
+a {
+  color: var(--linkColor);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:focus,
+a:hover {
+  color: var(--accentColor);
+}
+
+h1,
+h2,
+h3,
+h5 {
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--scale5);
+}
+
+h2 {
+  color: var(--secondaryColor);
+  font-size: var(--scale4);
+}
+
+h3 {
+  color: var(--accentColor);
+  font-size: var(--scale3);
+  grid-column: side;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: var(--scale2);
+}
+
+h5 {
+  font-size: var(--scale1);
+}
+
+h6 {
+  font-size: var(--scale0);
+}
+
+blockquote {
+  border-left: 0.2em solid var(--mutedColor);
+  padding-left: 1em;
+}
+
+cite {
+  color: var(--secondaryColor);
+  font-style: inherit;
+}
+
+cite::before {
+  content: '— ';
+}
+
+.masthead {
+  background: var(--mutedColor);
+  display: inherit;
+  gap: inherit;
+  grid-column: full;
+  grid-template-columns: inherit;
+  padding: 4em 0;
+  row-gap: 0;
+}
+
+.masthead > *,
+section {
+  grid-column: main;
+}
+
+article > * + *,
+blockquote > * + * {
+  margin-top: 0.6em;
+}
+
+.stack {
+  display: grid;
+  gap: 1.5em;
+}
+
+.grid-list {
+  display: grid;
+  gap: 1em;
+}
+
+.spaced-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.spaced-list:first-child::before {
+  border-bottom: 1px solid var(--mutedColor);
+  content: '';
+  flex-grow: 1;
+  margin: 0 1em;
+  order: 1;
+}
+
+.spaced-list > :nth-child(2) {
+  order: 2;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.tag-list > li {
+  background: var(--mutedColor);
+  margin: 0 0.2em 0.2em 0;
+  padding: 0.2em 0.6em;
+}
+
+@media print, (min-width: 48em) {
+  h3 {
+    text-align: right;
+    margin-bottom: inherit;
+  }
+
+  .masthead > *,
+  section {
+    grid-column: content;
+  }
+
+  section {
+    display: contents;
+  }
+
+  .grid-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+</style>
+  </head>
+  <body>
+      <header class="masthead">
+          <h1>Wico Wen</h1>
+          <h2>Frontend Web Developer</h2>
+      </header>
+      <section id="contact">
+        <h3>Contact</h3>
+        <div class="grid-list">
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:is@wico.cc">is@wico.cc</a>
+            </div>
+        </div>
+      </section>
+        <section id="about">
+          <h3>About</h3>
+          <article>
+            <p>9 years experience on web development, familiar with Vue, Javascript, CI/CD, Git, Scurm, PHP, Linux.</p>
+          </article>
+        </section>
+        <section id="profiles">
+          <h3>Profiles</h3>
+          <div class="grid-list">
+              <div>
+                  <h4>GitHub</h4>
+                    <a href="https://github.com/wicowen">wicowen</a>
+              </div>
+          </div>
+        </section>
+
+      <section id="work">
+        <h3>Work</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Motionelements Corp</h4>
+                  <span>
+                    <time datetime="2018-05-01">May 2018</time> –
+                    <time datetime="2021-12-16">Dec 2021</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Web Developer</strong>
+                </div>
+              </header>
+                <p>refactor site from 'Legacy PHP' to 'Vue + API', import CI/CD to automatic development workflow</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>maintain company&#x27;s search/artist/reseller</li>
+                    <li>refactor site from &#x60;PHP Zend + jQuery&#x60; to &#x60;vue.js + RESTful API&#x60;</li>
+                    <li>build web logger system base on docker on aws</li>
+                    <li>scrum team experience</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>MID Corp</h4>
+                  <span>
+                    <time datetime="2016-11-01">Nov 2016</time> –
+                    <time datetime="2017-06-01">Jun 2017</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Web Developer</strong>
+                </div>
+              </header>
+                <p>Development sports games system with Vue, Laravel, Github</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>development backend API with laravel</li>
+                    <li>development logger API</li>
+                    <li>(Company GUI Number: 12995349)</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>D-Link Corp.</h4>
+                  <span>
+                    <time datetime="2015-06-01">Jun 2015</time> –
+                    <time datetime="2016-06-01">Jun 2016</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Web Developer</strong>
+                </div>
+              </header>
+                <p>maintain mydlink cloud platform and development new feature use Symfony, Backbone, AWS, Jenkins</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>maintain mydlink service (smart home device&#x27;s dashboard)</li>
+                    <li>refactor cloud video player feature</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>PChome Online Inc.</h4>
+                  <span>
+                    <time datetime="2011-05-01">May 2011</time> –
+                    <time datetime="2015-05-01">May 2015</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Web Developer</strong>
+                </div>
+              </header>
+                <p>maintain &quot;PChome 24h&quot; e-commerce web site with Slim(PHP), jQuery</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>maintain &#x60;index page&#x60;, &#x60;onsale page&#x60; both include frontend and backend part</li>
+                    <li>refactor web site from &#x60;vanilla PHP&#x60; to &#x60;RESTful API&#x60; architecture</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Yaude Corp.</h4>
+                  <span>
+                    <time datetime="2010-01-01">Jan 2010</time> –
+                    <time datetime="2011-05-01">May 2011</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Web Developer</strong>
+                </div>
+              </header>
+                <p>maintain Armed Force Reserve System</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>maintain taiwan&#x27;s armed reserve system with php, javascript, linux</li>
+                    <li>(Company GUI Number: 80493408)</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Eris Technology Corp.</h4>
+                  <span>
+                    <time datetime="2007-06-01">Jun 2007</time> –
+                    <time datetime="2008-10-01">Oct 2008</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Web server Engineer</strong>
+                </div>
+              </header>
+                <p>development company's web site and maintain web server</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>maintain company web site with php</li>
+                    <li>maintain web server using VMware</li>
+                </ul>
+            </article>
+        </div>
+      </section>
+      <section id="education">
+        <h3>Education</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Yuanpei University</h4>
+                  <span>
+                    <time datetime="2005-09-01">Sep 2005</time> –
+                    <time datetime="2007-07-01">Jul 2007</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Dept. of Information Management</strong>
+                </div>
+              </header>
+                <p>Bachelor</p>
+                <h5>Courses</h5>
+                <ul>
+                    <li>CCNA (Cisco Certified Network Associate)</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Tungnan University</h4>
+                  <span>
+                    <time datetime="1998-06-01">Jun 1998</time> –
+                    <time datetime="2003-06-01">Jun 2003</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Dept. of Electronic Engineering ( Program of Computer Science)</strong>
+                </div>
+              </header>
+                <p>Associate Degree</p>
+            </article>
+        </div>
+      </section>
+      <section id="skills">
+        <h3>Skills</h3>
+        <div class="grid-list">
+            <div>
+                <h4>Frontend</h4>
+                <ul class="tag-list">
+                    <li>Vue</li>
+                    <li>Vuex</li>
+                    <li>Javascript</li>
+                    <li>Bootstrap</li>
+                    <li>jQuery</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Utility</h4>
+                <ul class="tag-list">
+                    <li>CircleCI</li>
+                    <li>Git / GitHub</li>
+                    <li>VSCode / Vim</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Backend</h4>
+                <ul class="tag-list">
+                    <li>PHP</li>
+                    <li>Apache / Nginx</li>
+                    <li>CentOS</li>
+                    <li>Shell</li>
+                </ul>
+            </div>
+        </div>
+      </section>
+      <section id="languages">
+        <h3>Languages</h3>
+        <div class="grid-list">
+            <div>
+                <h4>Mandarin</h4>
+              Native
+            </div>
+            <div>
+                <h4>English</h4>
+              intermediate
+            </div>
+        </div>
+      </section>
+  </body>
+</html>
