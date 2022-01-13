@@ -7,7 +7,6 @@
     "label": "Frontend Web Developer",
     "picture": "",
     "email": "is@wico.cc",
-    "website": "http://wicowen.github.io",
     "summary": "9 years experience on web development, familiar with Vue, Javascript, CI/CD, Git, Scurm, PHP, Linux.",
     "location": {
       "address": "",
@@ -28,16 +27,16 @@
     {
       "name": "Motionelements Corp",
       "company": "Motionelements Corp",
-      "position": "Web Developer",
+      "position": "Senior Frontend Developer",
       "website": "https://www.motionelements.com/search/video",
       "startDate": "2018-05-01",
       "endDate": "2021-12-16",
-      "summary": "refactor site from 'Legacy PHP' to 'Vue + API', import CI/CD to automatic development workflow",
+      "summary": "Refactor site from 'Legacy PHP' to 'Vue + API', import CI/CD to automatic development workflow",
       "highlights": [
-        "maintain company's search/artist/reseller",
+        "maintain company's search/artist/reseller page",
         "refactor site from `PHP Zend + jQuery` to `vue.js + RESTful API`",
         "build web logger system base on docker on aws",
-        "scrum team experience"
+        "scrum team experience (remote work)"
       ]
     },
     {
@@ -57,11 +56,11 @@
     {
       "name": "D-Link Corp.",
       "company": "D-Link Corp.",
-      "position": "Web Developer",
+      "position": "Frontend Web Developer",
       "website": "https://us.mydlink.com/content/productfamily",
       "startDate": "2015-06-01",
       "endDate": "2016-06-01",
-      "summary": "maintain mydlink cloud platform and development new feature use Symfony, Backbone, AWS, Jenkins",
+      "summary": "Maintain mydlink cloud platform and development new feature use Symfony, Backbone, AWS, Jenkins",
       "highlights": [
         "maintain mydlink service (smart home device's dashboard)",
         "refactor cloud video player feature"
@@ -74,7 +73,7 @@
       "website": "https://24h.pchome.com.tw/sign/3c.htm",
       "startDate": "2011-05-01",
       "endDate": "2015-05-01",
-      "summary": "maintain \"PChome 24h\" e-commerce web site with Slim(PHP), jQuery",
+      "summary": "Maintain \"PChome 24h\" e-commerce web site with Slim(PHP), jQuery",
       "highlights": [
         "maintain `index page`, `onsale page` both include frontend and backend part",
         "refactor web site from `vanilla PHP` to `RESTful API` architecture"
@@ -87,7 +86,7 @@
       "website": "https://afrc.mnd.gov.tw/AFRCWeb/index.aspx",
       "startDate": "2010-01-01",
       "endDate": "2011-05-01",
-      "summary": "maintain Armed Force Reserve System",
+      "summary": "Maintain Armed Force Reserve System",
       "highlights": [
         "maintain taiwan's armed reserve system with php, javascript, linux",
         "(Company GUI Number: 80493408)"
@@ -100,10 +99,10 @@
       "website": "http://www.eris.com.tw/en/",
       "startDate": "2007-06-01",
       "endDate": "2008-10-01",
-      "summary": "development company's web site and maintain web server",
+      "summary": "Development company's web site and maintain web server",
       "highlights": [
         "maintain company web site with php",
-        "maintain web server using VMware"
+        "maintain web server with VMware"
       ]
     }
   ],
