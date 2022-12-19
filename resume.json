@@ -83,13 +83,12 @@
       "name": "Yaude Corp.",
       "company": "Yaude Corp.",
       "position": "Web Developer",
-      "website": "https://afrc.mnd.gov.tw/AFRCWeb/index.aspx",
+      "website": "https://www.yaude.com.tw/",
       "startDate": "2010-01-01",
       "endDate": "2011-05-01",
       "summary": "Maintain Armed Force Reserve System",
       "highlights": [
-        "maintain taiwan's armed reserve system with php, javascript, linux",
-        "(Company GUI Number: 80493408)"
+        "maintain taiwan's armed reserve system with php, vanilla javascript, unix"
       ]
     },
     {
